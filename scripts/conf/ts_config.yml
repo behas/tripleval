@@ -1,0 +1,33 @@
+# This files contains the local environment-specific settings of the evaluated triple stores
+---
+evaluation:
+  ingest_timeout: 7200
+  query_timeout: 10
+
+4store:
+  kb_name: europeana
+
+virtuoso:
+  port: 1111
+  user: dba
+  pass: dba
+  graph: http://europeana.eu
+
+jenaSDB:
+  root: /Users/someuser/SDB-1.3.3
+  db_config: /Users/someuser/SDB-1.3.3/Store/sdb.ttl
+  db_config_template: /Users/someuser/SDB-1.3.3/Store/sdb-mysql-innodb.ttl
+  db_jdbc: /Users/someuser/SDB-1.3.3/mysql-connector-java-5.1.14-bin.jar
+  db_name: sdb2
+  db_host: localhost
+  db_user: username
+  db_pass: password
+
+jenaTDB:
+  root: /Users/someuser/TDB-0.8.9/
+  db_config: /Users/someuser/TDB-0.8.9/Store/tdb-assembler.ttl
+  db_path: /Users/someuser/stores/TDB-0.8.9/db
+
+sesame:
+  url: http://localhost:8080/openrdf-sesame/
+  repository: europeana

@@ -1,0 +1,2 @@
+iteration,file,triples,loadTime,query1,query2
+0,../data/edm_data00.nt,10000000,3491.45,1.67,0.02

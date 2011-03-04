@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# This script executes triple store performance tests
+# Created by Bernhard Haslhofer 01/03/2011
+
+# Usage: ruby -I lib bin/tseval [options] data_files
+
+require "tseval/runner"
+
+runner = TSEval::Runner.new(ARGV)
+runner.run
+

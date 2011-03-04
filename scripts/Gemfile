@@ -1,0 +1,8 @@
+source 'http://rubygems.org'
+
+# needed for JenaSDB
+gem 'mysql2'
+
+# needed for Sesame 
+gem 'ruby-sesame'
+
