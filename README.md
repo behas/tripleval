@@ -10,6 +10,18 @@ It provides a generic evaluation procedure, which is executed against a given se
 * [JenaTDB](http://openjena.org/wiki/TDB/ "Jena TDB")
 * [Sesame](http://www.openrdf.org/ "Openrdf Sesame")
 
+The results are document in [this paper](http://eprints.cs.univie.ac.at/2833/):
+
+    @techreport{cs2833,
+           month = {March},
+           type = {Technical Report},
+           title = {Europeana RDF Store Report},
+           author = {Bernhard Haslhofer and Elaheh Momeni Roochi and Bernhard Schandl and Stefan Zander},
+           address = {Vienna},
+           year = {2011},
+           institution = {University of Vienna},
+           url = {http://eprints.cs.univie.ac.at/2833/}
+    }
 
 ## Prerequisites
 
